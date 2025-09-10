@@ -1,0 +1,2 @@
+model,coef,ci_low,ci_high,N,clusters
+"Placebo (post from 2019), cluster Kebele",-0.009971878316443519,-0.01786179500018744,-0.0020819616326995995,5322,864

@@ -1,0 +1,2 @@
+model,coef,ci_low,ci_high,N,clusters
+Baseline (cluster by Kebele),-0.0014140811129218882,-0.018366749346905978,0.015538587121062201,5322,864

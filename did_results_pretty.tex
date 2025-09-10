@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Impact of irrigation on NDVI: baseline and robustness checks}
+\label{tab:did_ndvi}
+\begin{tabular}{llrrr}
+\toprule
+model & ATT (95% CI) & N & clusters & p-value \\
+\midrule
+Baseline (cluster Kebele) & -0.0014 [-0.0184, 0.0155] & 5322 & 864 & 0.870135 \\
+Clustered by Woreda & -0.0014 [-0.0158, 0.0129] & 5322 & 60 & 0.846786 \\
+Clustered by Zone & -0.0014 [-0.0256, 0.0228] & 5322 & 1 & 0.908809 \\
+WLS (area weighted) & -0.013 [-0.0429, 0.0169] & 5322 & 864 & 0.395105 \\
+Trimmed (1-99%) & -0.0014 [-0.0184, 0.0155] & 5322 & 864 & 0.870061 \\
+Continuous (treat_share) & -0.0035 [-0.0273, 0.0203] & 5322 & 864 & 0.772741 \\
+High exposure (≥0.2) & 0.0003 [-0.0198, 0.0203] & 5322 & 864 & 0.978621 \\
+\bottomrule
+\end{tabular}
+\end{table}
